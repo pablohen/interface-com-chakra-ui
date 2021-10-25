@@ -7,7 +7,7 @@ const ContinentBanner = (props: Props) => {
   return (
     <Flex
       w="100%"
-      h="150px"
+      h={['150px', '500px']}
       bgImage="/continents/europe.jpg"
       bgSize="cover"
       bgPosition="center"
@@ -15,8 +15,8 @@ const ContinentBanner = (props: Props) => {
       <Center w="100%">
         <Heading
           fontWeight="600"
-          fontSize="28px"
-          lineHeight="42px"
+          fontSize={['28px', '48px']}
+          lineHeight={['42px', '72px']}
           color="light.text"
         >
           Europa
