@@ -1,3 +1,7 @@
+:root {
+  --swiper-theme-color: #ffba08;
+}
+
 html,
 body {
   padding: 0;
