@@ -12,7 +12,7 @@ const EuropePage = (props: Props) => {
       <Header />
       <ContinentBanner />
 
-      <Box w="100%" px="140px">
+      <Box w="100%" px={['0', '0', '0', '0', '140px']}>
         <Flex flexDir={['column', 'row']} p="16px">
           <Text
             fontWeight="400"
